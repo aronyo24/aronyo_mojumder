@@ -1,0 +1,142 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Portfolio",
+        "title_short_nav": "Portfolio",
+        "title_long_prefix": "Take a look at",
+        "title_long": "My {{Portfolio}}"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticlePortfolio",
+      "locales": {
+        "en": {
+          "category_all": "All",
+          "category_apps": "Apps",
+          "category_web": "Web",
+          "category_utilities": "Utilities"
+        }
+      },
+      "settings": {
+        "categorize_by": ["category_apps", "category_web", "category_utilities"],
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "categoryId": "category_web",
+          "img": "images/pictures/portfolio-247school.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              { "href": "https://247school.org", "tooltipString": "open_website", "faIcon": "fa-solid fa-link" },
+              { "href": "https://github.com/aronyomojumder", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github" }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "247School Learning Platform",
+              "text": "An educational web platform built using <b>Django</b> and <b>React.js</b>, featuring class selections, dashboards, and user portals for students and admins.",
+              "tags": ["Django", "React", "Education", "VPS"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "categoryId": "category_web",
+          "img": "images/pictures/portfolio-technoheaven.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              { "href": "https://technoheaven.org", "tooltipString": "open_website", "faIcon": "fa-solid fa-link" },
+              { "href": "https://github.com/sujitedu/Technoheaven", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github" }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Technoheaven Research Hub",
+              "text": "A research-based site with publication uploads, team gallery, and contact services, built with <b>Django</b> and hosted on a VPS with full SSL and email integration.",
+              "tags": ["Django", "Bootstrap", "Research", "Admin Panel"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "categoryId": "category_apps",
+          "img": "images/pictures/fiverr-aronyo.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              { "href": "https://www.fiverr.com/aronyom24", "tooltipString": "open_fiverr", "faIcon": "fa-brands fa-fiverr" }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Fiverr Full Stack Projects",
+              "text": "Worked with international clients to build <b>custom dashboards</b>, <b>e-commerce backends</b>, and <b>API integrations</b> using Django and PHP.",
+              "tags": ["Freelance", "Full Stack", "Client Projects"]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "categoryId": "category_utilities",
+          "img": "images/pictures/portfolio-mailserver.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Mail Server with Roundcube",
+              "text": "Configured and deployed a mail server using <b>Mailu</b> with <b>Roundcube</b> for mail client access, integrated on VPS with domain DNS and SSL.",
+              "tags": ["Mail Server", "Roundcube", "Linux", "VPS"]
+            }
+          }
+        },
+        {
+          "id": 5,
+          "categoryId": "category_utilities",
+          "img": "images/pictures/portfolio-faceattend.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Face Recognition Attendance",
+              "text": "Developed a student attendance system using <b>OpenCV</b> and <b>face recognition</b> models with real-time authentication and Django backend.",
+              "tags": ["Python", "Face Recognition", "OpenCV", "Attendance"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
