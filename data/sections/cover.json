@@ -63,7 +63,7 @@
       "items": [
         {
           "id": 1,
-          "img": "images/pictures/about-texts-image-1.png",
+          "img": "images/pictures/cover_img.png",
           "faIcon": "",
           "faIconColors": {"bg": "", "fill": ""},
           "locales": {
