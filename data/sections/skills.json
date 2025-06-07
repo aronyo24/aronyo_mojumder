@@ -375,7 +375,7 @@
     },
     {
       "id": 2,
-      "img": "images/flags/bd.png",
+      "img": "images/flags/bangladesh_flag.png",
       "faIcon": "",
       "faIconColors": { "bg": "", "fill": "" },
       "date": { "year": null, "month": null },
@@ -390,7 +390,7 @@
     },
     {
       "id": 3,
-      "img": "images/flags/in.png",
+      "img": "images/flags/Flag_of_India.png",
       "faIcon": "",
       "faIconColors": { "bg": "", "fill": "" },
       "date": { "year": null, "month": null },
