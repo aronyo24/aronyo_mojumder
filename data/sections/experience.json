@@ -1,0 +1,82 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Experience",
+        "title_short_nav": "Experience",
+        "title_long_prefix": "Summary of my",
+        "title_long": "{{Work}} Experience"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleTimeline",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "dateStart"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/fiverr_logo.svg",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2022, "month": 2 },
+          "dateEnd": null,
+          "locales": {
+            "en": {
+              "title": "{{Freelance Full Stack Developer & Technical Support Specialist}}",
+              "province": "",
+              "country": "Remote",
+              "institution": "Fiverr.com",
+              "text": "Delivering full stack development services and professional technical support to global clients. Projects include custom website development, admin dashboards, API integration, LaTeX formatting for research papers, and professional email signature & template design.",
+              "list": [],
+              "tags": ["Python", "Django", "PHP", "Bootstrap", "LaTeX", "Email Templates", "API Integration", "Client Support"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": "images/pictures/TECHNOHEAVEN.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2024, "month": 1 },
+          "dateEnd": null,
+          "locales": {
+            "en": {
+              "title": "Lead {{Full Stack Developer}}",
+              "province": "",
+              "country": "Remote",
+              "institution": "Technoheaven.org",
+              "text": "Spearheading full-stack web application development for a research-focused platform. Responsible for backend logic, frontend UI integration, and secure deployment on VPS infrastructure.",
+              "list": [],
+              "tags": ["Django", "React.js", "Bootstrap", "Admin Panels", "Linux VPS", "SSL"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "images/pictures/247school.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2025, "month": 6 },
+          "dateEnd": null,
+          "locales": {
+            "en": {
+              "title": "Platform Administrator & {{Full Stack Developer}}",
+              "province": "",
+              "country": "Remote",
+              "institution": "247School Learning Platform",
+              "text": "Managing the entire backend infrastructure, deployment, and core features of 247School. Also support frontend development as needed, ensuring a stable and scalable educational platform.",
+              "list": [],
+              "tags": ["Python", "Django", "React", "MySQL", "Apache", "VPS"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Resume",
+        "title_short_nav": "Resume",
+        "title_long_prefix": "Take a look at my",
+        "title_long": "{{Resume}}"
+      }
+    }
+  },
+  "locales": {
+    "en": {
+      "title": "My Resume",
+      "description": "You can view or download my resume below.",
+      "pdfUrl": "/files/Aronyo_Mojumder_cv.pdf",
+      "actions": [
+        {
+          "label": "📄 View Resume",
+          "type": "view",
+          "link": "/files/Aronyo_Mojumder_cv.pdf"
+        },
+        {
+          "label": "⬇️ Download Resume",
+          "type": "download",
+          "link": "/files/Aronyo_Mojumder_cv.pdf"
+        }
+      ]
+    }
+  }
+}

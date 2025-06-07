@@ -1,0 +1,148 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Welcome!",
+        "title_short_nav": "About Me",
+        "title_long_prefix": "Hello, I'm",
+        "title_long": "Aronyo Mojumder"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleInlineList",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "display_as_list_if_width_is_lower_than": 380
+      },
+      "items": [
+        {
+          "id": 1,
+          "label": "Jashore, Bangladesh",
+          "link": {"href": "", "tooltipString": ""},
+          "faIcon": "fa-regular fa-address-book"
+        },
+        {
+          "id": 2,
+          "label": "aronyo@technoheaven.org",
+          "link": {
+            "href": "mailto:aronyo@technoheaven.org",
+            "tooltipString": "Email me"
+          },
+          "faIcon": "fa-regular fa-envelope"
+        },
+        {
+          "id": 3,
+          "label": "@aronyo24",
+          "link": {
+            "href": "https://github.com/aronyo24",
+            "tooltipString": "See on GitHub"
+          },
+          "faIcon": "fa-brands fa-github"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "component": "ArticleText",
+      "locales": {
+        "en": {
+          "title": "A little bit about me..."
+        }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/about-texts-image-1.png",
+          "faIcon": "",
+          "faIconColors": {"bg": "", "fill": ""},
+          "locales": {
+            "en": {
+              "text": "<p>I'm Aronyo Mojumder, a Full Stack Developer and Research Assistant passionate about creating innovative web solutions. With over 3 years of experience in technologies like Python, Django, HTML, CSS, JavaScript, and Bootstrap, I enjoy building efficient and user-friendly platforms.</p><p>Currently, I work at Technoheaven, where I contribute to web development projects and educational technology research. I also freelance on platforms like Fiverr, offering web services and academic formatting support.</p><p>I look forward to collaborating with you!</p>"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "component": "ArticleInfoList",
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "locales": {
+        "en": {"title": "Personal Interests"},
+        "es": {"title": "Intereses personales"},
+        "fr": {"title": "Intérêts personnels"},
+        "ko": {"title": "개인 관심사"}
+      },
+      "items": [
+        {
+          "id": 1,
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": {"bg": "", "fill": ""},
+          "label": null,
+          "link": {"href": null, "tooltipString": null},
+          "locales": {
+            "en": {
+              "title": "{{Web Development}}",
+              "text": "Designing and building full-stack web applications using modern technologies."
+            }
+          }
+        },
+        {
+          "id": 2,
+          "faIcon": "fa-solid fa-brain",
+          "faIconColors": {"bg": "", "fill": ""},
+          "label": null,
+          "link": {"href": null, "tooltipString": null},
+          "locales": {
+            "en": {
+              "title": "{{AI & Machine Learning}}",
+              "text": "Exploring intelligent systems, data analysis, and automation tools."
+            }
+          }
+        },
+        {
+          "id": 3,
+          "faIcon": "fa-solid fa-book-open",
+          "faIconColors": {"bg": "", "fill": ""},
+          "label": null,
+          "link": {"href": null, "tooltipString": null},
+          "locales": {
+            "en": {
+              "title": "{{Academic Research}}",
+              "text": "Conducting research in educational technology and digital transformation."
+            }
+          }
+        },
+
+        {
+          "id": 4,
+          "faIcon": "fa-solid fa-music",
+          "faIconColors": {"bg": "", "fill": ""},
+          "label": null,
+          "link": {"href": null, "tooltipString": null},
+          "locales": {
+            "en": {
+              "title": "{{Listening to Music}}",
+              "text": "Relaxing with music across genres—especially instrumental and cinematic scores."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
